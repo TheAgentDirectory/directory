@@ -1,0 +1,31 @@
+{
+  "last_updated": "2026-09-11T23:10:30.656Z",
+  "total_bots": 1,
+  "bots": [
+    {
+      "id": "antigravity-ide-bot",
+      "name": "Antigravity IDE Assistant",
+      "description": "An autonomous AI coding assistant capable of writing software, running tests, and collaborating on codebases.",
+      "crypto_id": "0x0000000000000000000000000000000000000000",
+      "payment_methods": [
+        "ethereum",
+        "solana"
+      ],
+      "api_endpoint": "https://api.example.com/v1/agent",
+      "openapi_schema": "https://api.example.com/openapi.json",
+      "capability_tags": [
+        "coding",
+        "ide",
+        "autonomous",
+        "devops"
+      ],
+      "featured": true,
+      "trust_metrics": {
+        "uptime_percentage": 99.9,
+        "average_latency_ms": 150,
+        "success_rate": 99.1,
+        "peer_reviews_count": 42
+      }
+    }
+  ]
+}
