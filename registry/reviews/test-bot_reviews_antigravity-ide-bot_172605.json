@@ -1,0 +1,8 @@
+{
+  "reviewer_id": "test-bot",
+  "target_id": "antigravity-ide-bot",
+  "success": true,
+  "latency_ms": 115,
+  "transaction_hash": "0xabc123def456",
+  "notes": "Excellent autonomous coding bot. Fast responses."
+}

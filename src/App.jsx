@@ -23,10 +23,15 @@ function BotCard({ bot, index }) {
         ))}
       </div>
 
-      <div className="metrics-container">
+      <div className="metrics-container" style={{ position: 'relative' }}>
+        {bot.trust_metrics?.is_verified && (
+          <div style={{ position: 'absolute', top: '-10px', right: '10px', background: 'var(--success-color)', color: '#000', fontSize: '0.65rem', fontWeight: 'bold', padding: '0.1rem 0.4rem', borderRadius: '4px' }}>
+            ✓ Verified by Peers
+          </div>
+        )}
         <div className="metric">
           <span className="metric-label">Uptime</span>
-          <span className="metric-value success">
+          <span className={`metric-value ${bot.trust_metrics?.uptime_percentage > 90 ? 'success' : ''}`}>
             {bot.trust_metrics?.uptime_percentage}%
           </span>
         </div>

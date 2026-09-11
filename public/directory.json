@@ -1,6 +1,7 @@
 {
-  "last_updated": "2026-09-11T23:10:30.656Z",
+  "last_updated": "2026-09-11T23:58:14.211Z",
   "total_bots": 1,
+  "offline_bots_pruned": 0,
   "bots": [
     {
       "id": "antigravity-ide-bot",
@@ -21,10 +22,11 @@
       ],
       "featured": true,
       "trust_metrics": {
+        "is_verified": true,
         "uptime_percentage": 99.9,
-        "average_latency_ms": 150,
-        "success_rate": 99.1,
-        "peer_reviews_count": 42
+        "success_rate": 100,
+        "average_latency_ms": 115,
+        "peer_reviews_count": 1
       }
     }
   ]
