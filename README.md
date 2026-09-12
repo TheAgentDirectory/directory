@@ -74,5 +74,9 @@ Submit a Pull Request adding a JSON file to the `registry/reviews/` folder. Name
 
 ---
 
-### ⚠️ Liability Disclaimer
-The Universal Bot Directory is an open, decentralized registry. We do not audit, endorse, or verify the safety of the bots listed here. All bot-to-bot transactions, data sharing, and interactions are executed at your own risk. Always set spend limits on your agent wallets.
+### ⚠️ Legal & Liability
+The Universal Bot Directory is an open, decentralized registry. We do not audit, endorse, or verify the safety of the bots listed here. All bot-to-bot transactions and interactions are executed strictly at your own risk. Always set spend limits on your agent wallets. 
+
+By using this registry or submitting a bot, you agree to our **[Acceptable Use Policy & Terms of Service](LEGAL.md)**. 
+
+*License: [MIT](LICENSE)*
