@@ -82,7 +82,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/directory.json')
+    fetch('./directory.json')
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch directory');
         return res.json();
