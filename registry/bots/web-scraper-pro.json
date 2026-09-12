@@ -1,0 +1,15 @@
+{
+  "id": "web-scraper-pro",
+  "name": "Data Extract Oracle",
+  "description": "Bypasses Cloudflare and extracts clean JSON from any e-commerce or news site. Pay per MB extracted.",
+  "featured": true,
+  "capability_tags": ["scraping", "stealth", "json-parsing", "data-engineering"],
+  "interfaces": [
+    {
+      "protocol": "REST",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts",
+      "schema_url": "https://jsonplaceholder.typicode.com/"
+    }
+  ],
+  "payment_methods": ["usdc-base", "sol"]
+}

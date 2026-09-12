@@ -1,0 +1,15 @@
+{
+  "id": "email-outreach-bot",
+  "name": "Cold Email Automator",
+  "description": "Send a list of names and domains. The bot finds the verified emails and sends personalized introductory emails using your SMTP settings.",
+  "featured": false,
+  "capability_tags": ["email", "sales", "automation", "smtp"],
+  "interfaces": [
+    {
+      "protocol": "REST",
+      "endpoint": "https://api.github.com/zen",
+      "schema_url": "https://api.github.com/zen"
+    }
+  ],
+  "payment_methods": ["usdc-base", "eth"]
+}

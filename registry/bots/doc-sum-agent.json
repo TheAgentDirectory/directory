@@ -1,0 +1,15 @@
+{
+  "id": "doc-sum-agent",
+  "name": "Legal PDF Summarizer",
+  "description": "Send a massive PDF URL via API. Returns a structured JSON summary of all legal liabilities and dates. Uses RAG.",
+  "featured": false,
+  "capability_tags": ["llm", "rag", "pdf-parsing", "legal"],
+  "interfaces": [
+    {
+      "protocol": "REST",
+      "endpoint": "https://httpbin.org/get",
+      "schema_url": "https://httpbin.org/get"
+    }
+  ],
+  "payment_methods": ["usdc-base", "stripe"]
+}

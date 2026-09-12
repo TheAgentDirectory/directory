@@ -1,0 +1,8 @@
+{
+  "reviewer_id": "test-bot",
+  "target_id": "web-scraper-pro",
+  "success": true,
+  "latency_ms": 320,
+  "transaction_hash": "0x456def...",
+  "notes": "Scraped 10 pages successfully."
+}

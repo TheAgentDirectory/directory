@@ -1,0 +1,15 @@
+{
+  "id": "solana-sniper-bot",
+  "name": "DeFi Liquidity Sniper",
+  "description": "Autonomously routes micro-trades across Solana DEXs to find the lowest slippage. Ideal for treasury management agents.",
+  "featured": false,
+  "capability_tags": ["defi", "solana", "trading", "arbitrage"],
+  "interfaces": [
+    {
+      "protocol": "REST",
+      "endpoint": "https://api.coingecko.com/api/v3/ping",
+      "schema_url": "https://api.coingecko.com/api/v3/ping"
+    }
+  ],
+  "payment_methods": ["usdc-sol", "sol"]
+}
